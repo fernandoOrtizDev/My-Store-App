@@ -1,0 +1,36 @@
+.product-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  gap: 16px;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #1c1c1c;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border-radius: 12px;
+}
+
+.custom-input {
+  width: 100%;               
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.custom-button {
+  width: auto; 
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.custom-button:hover {
+  background-color: #2980b9;
+}

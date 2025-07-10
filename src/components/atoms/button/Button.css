@@ -1,0 +1,23 @@
+
+.custom-button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.custom-button.danger {
+  background-color: #e74c3c;
+}
+
+.custom-button.danger:hover {
+  background-color: #c0392b;
+}
+
+.custom-button.edit {
+  background-color: #0ae8b0c8;
+}
+
+.custom-button.edit:hover {
+  background-color: #1ffcb2;
+}
